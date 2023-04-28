@@ -1,0 +1,83 @@
+﻿body {
+    background-image: url("gre.png");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: white;
+    size: 40%;
+    margin-left: 33%;
+}
+
+
+img.img_container {
+    width: 7%;
+    height: 14%;
+    margin-left: 45%;
+}
+
+img.user {
+    width: 9%;
+    height: 20%;
+    margin-left: 43%;
+    outline-style: auto;
+    outline-color: rgb(170, 52, 206);
+}
+
+.container {
+    position: relative;
+    padding: 20px 0px 20px 0;
+    margin-left: 30%;
+}
+
+
+input,
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+    input:hover,
+    .btn:hover {
+        opacity: 60;
+    }
+
+
+input {
+    background-color: #dfdfdf;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+.col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.bottom-container {
+    text-align: center;
+    background-color: rgb(149, 8, 159);
+    border-radius: 0px 0px 4px 4px;
+}
